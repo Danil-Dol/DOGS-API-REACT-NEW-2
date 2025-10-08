@@ -10,7 +10,7 @@ const links = [
 
 export const Header = () =>{
     return(
-        <div>
+        <div className="bg-[#4d86ff] w-screen rounded-full items-center justify-between px-9 py-5">
             <Logo />
             <nav>
                 {links.map((item, i)=>{
