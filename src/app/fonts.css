@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(/src/app/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(/src/app/fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
