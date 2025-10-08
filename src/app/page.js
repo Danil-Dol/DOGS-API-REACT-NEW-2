@@ -1,9 +1,9 @@
-import Image from "next/image";
+import { Button } from "../../shared/ui";
 
 export default function Home() {
   return (
     <div>
-      
+      <Button children="Это кнопка"/>
     </div>
   );
 }
