@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { Link } from "../../shared/ui";
 import { Button } from "../../shared/ui";
 import { Title } from "../../shared/ui";
 
