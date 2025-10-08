@@ -10,3 +10,17 @@ export const Button = ({children}) =>{
         </div>
     )
 }
+
+export const Title = ({children}) => {
+    return <h2 className="text-[#4D86FF] font-[Inter] text-4xl font-black">{children}</h2>
+}
+
+export const Lint = ({childre, link}) => {
+    return <a href={link}>{children}</a>
+}
+
+export const Logo = () => {
+    return (
+    
+    )
+}
