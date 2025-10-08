@@ -13,7 +13,9 @@ export const Header = () =>{
         <div>
             <Logo />
             <nav>
-
+                {links.map((item, i)=>{
+                    return <Link key={i} link={item.link} children={item.children}/>
+                })}
             </nav>
         </div>
     )
